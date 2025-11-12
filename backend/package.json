@@ -1,0 +1,22 @@
+{
+    "name": "secure-cloud-storage",
+    "version": "1.0.0",
+    "description": "Secure Cloud Storage Solution with Fine-grained Access Control",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "@aws-sdk/client-dynamodb": "^3.687.0",
+        "@aws-sdk/client-kms": "^3.687.0",
+        "@aws-sdk/client-s3": "^3.688.0",
+        "aws-sdk": "^2.1131.0",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "jsonwebtoken": "^8.5.1",
+        "uuid": "^8.3.2"
+    }
+}

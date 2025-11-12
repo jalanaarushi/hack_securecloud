@@ -1,0 +1,5 @@
+__pycache__/
+.env
+credentials_example.json
+logs/
+*.log
